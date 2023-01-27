@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Montserrat:wght@100;400&display=swap');
+
+
+:root {
+    --font-family: font-family: 'Montserrat', sans-serif;
+    --bg--color: #1E293B;
+    --primary-color:#B8BFC6;
+}
+
+body {
+    background: var(--bg--color);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--primary-color);
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.autor a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 1.5em;
+}
+
+.btn-jogar {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: var(--bg--color);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    box-shadow: 0 0 5px rgb(200, 214, 233),
+    0 0 25px rgb(	47, 69, 99),
+    0 0 50px rgb(	53, 78, 112),
+    0 0 100px rgb(	59, 87, 125);
+}
